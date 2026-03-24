@@ -1,0 +1,13 @@
+{
+  "name": "consumer-service",
+  "version": "1.0.0",
+  "description": "CQRS consumer to build read-side analytics views",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "pg": "^8.11.5"
+  }
+}
